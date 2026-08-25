@@ -528,3 +528,4 @@ You can paste this directly in your alliance Discord:
 - **Join every rally** you see.
 
 ---
+i was here
