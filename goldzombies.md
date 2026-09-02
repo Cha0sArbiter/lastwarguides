@@ -31,13 +31,13 @@ The basic loop is:
 
 ---
 
-## 2. Important Correction: Discovery Rewards Scale With Boss Level
+## 2. Discovery Rewards by Boss Level
 
-An earlier version of this guide treated the discovery reward as though it were a fixed Level 5 reward. That was incorrect.
+Discovery rewards are **not fixed**. They increase with the level of the Gold Zombie boss you discover.
 
-The previously listed discovery reward of **220 Courage Medals / ~769k Gold** corresponds to approximately a **Level 15 boss**, while a Level 5 discovery starts at **200 Courage Medals / ~702k Gold**.
+A Level 5 discovery starts at approximately **200 Courage Medals / 702k Gold**, while a Level 15 discovery gives approximately **220 Courage Medals / 769k Gold**.
 
-This matters because any rewards-per-stamina calculation for spawning bosses depends on **what level of boss you are actually discovering**.
+This matters because rewards-per-stamina calculations for spawning bosses depend on **what level of boss you are actually discovering**.
 
 ### Discoverer Courage Medals by Boss Level
 
@@ -136,7 +136,7 @@ These values make one point very clear: **a higher-level boss is much more valua
 - 10 stamina
 - Normally no meaningful troop-loss concern
 
-Observed rewards used in our original testing:
+Observed rewards:
 
 - 10 Courage Medals
 - ~268k food
@@ -187,7 +187,7 @@ So, under the 1-boss-per-6-kills assumption:
 | 75 | 400 | 6.67 |
 | 100 | 450 | 7.50 |
 
-This is why **summoning level matters**. The old guide's fixed figure of ~4.67 medals/stamina was only representative of roughly a Level 15 discovery.
+This is why **Summoning Level matters**: as the level of your discovered bosses rises, the value of spending stamina on small zombies rises with it.
 
 ---
 
@@ -197,7 +197,7 @@ This is why **summoning level matters**. The old guide's fixed figure of ~4.67 m
 
 Starting a boss rally costs stamina (commonly 20 stamina in our observed data).
 
-For the original Level 5 test data, the rally leader received approximately:
+For a Level 5 boss, the rally leader received approximately:
 
 - 80 Courage Medals
 - 552k iron
@@ -208,13 +208,13 @@ For the original Level 5 test data, the rally leader received approximately:
 
 Community documentation indicates the **boss-kill Courage Medal reward is 80 for the rally leader regardless of boss level**, while the discoverer bonus is the part that scales strongly by level.
 
-Higher-level bosses are harder and may increase troop/healing costs, so do not assume the old Level 5 casualty figure applies to all bosses.
+Higher-level bosses are harder and may increase troop/healing costs, so do not assume a Level 5 casualty figure applies to all bosses.
 
 ### Rally Member
 
 Rally members normally spend **0 stamina** to join.
 
-Original Level 5 observed rewards were approximately:
+For a Level 5 boss, observed rewards were approximately:
 
 - 40 Courage Medals
 - 331k iron
@@ -253,7 +253,7 @@ An alliance should therefore help members get higher eligible bosses killed inst
 
 ---
 
-## 8. Reassessed Strategy Recommendations
+## 8. Strategy Recommendations
 
 ### If Your Goal Is Courage Medals and Resources
 
@@ -264,17 +264,17 @@ Why:
 - Small zombies give their own rewards.
 - They generate discovery opportunities.
 - Discovery Courage Medals scale strongly with boss level.
-- Higher Summoning Level makes the small-zombie farming loop substantially more valuable than the old fixed-Level-15 model suggested.
+- Higher Summoning Level makes the small-zombie farming loop substantially more valuable.
 
-For a mature account spawning Level 75-100 bosses, small-zombie farming can be **much better** than the old ~4.67 medals/stamina estimate.
+For a mature account spawning Level 75-100 bosses, small-zombie farming can produce far more than the low-level efficiency examples suggest.
 
 ### If Your Goal Is Hero XP
 
 Leading rallies remains very strong because boss-leader rewards provide substantial Hero XP per stamina.
 
-However, the old statement that leading is always the best Hero-XP option was based on **Level 5 leader rewards compared with a Level 15 discovery reward**. That comparison was not apples-to-apples.
+Hero-XP efficiency varies with boss level, so avoid comparing leader rewards at one boss level with discovery rewards at another and treating that as a universal ranking.
 
-Use this safer rule:
+Use this rule:
 
 - **Lead rallies when your alliance needs damage, when you are progressing Summoning Level, or when you specifically value the leader reward.**
 - Do not spend all stamina leading low-level bosses while ignoring your own small-zombie spawning opportunities.
@@ -283,7 +283,7 @@ Use this safer rule:
 
 **Join rallies constantly.**
 
-This remains one of the strongest recommendations in the guide:
+This is one of the strongest recommendations in the guide:
 
 - 0 stamina to join
 - Courage Medals
@@ -329,7 +329,7 @@ This produces more value than having everyone independently spend stamina leadin
 - **Using your strongest march on small zombies unnecessarily**
   - Save strong marches for bosses when practical.
 
-- **Using old fixed Level 5/15 efficiency calculations for a mature account**
+- **Using a fixed low-level efficiency calculation for a mature account**
   - Your actual efficiency may be dramatically higher if you regularly discover high-level bosses.
 
 ---
