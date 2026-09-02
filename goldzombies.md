@@ -1,531 +1,372 @@
+# Gold Zombie / Zombie Invasion Guide
+
 ## 1. Event Overview
 
 The **Zombie Invasion** (Gold Zombie) event is one of the best PvE events in *Last War: Survival* for farming:
 
-- **Courage medals**
+- **Courage Medals**
 - **Gold, food, and iron**
 - **Hero XP**
-- **Drone data**
+- **Drone / combat data**
 
 The event revolves around two enemy types:
 
-- **Small Zombies (Level 10)**  
-  - World map enemies that you kill using stamina.
-  - Killing enough of them will **spawn Gold Zombie bosses**.
+- **Invading / Small Zombies (Level 10)**
+  - Cost stamina to kill.
+  - Each kill gives its own rewards.
+  - Killing them can discover / spawn a Gold Zombie Boss.
 
-- **Gold Zombie Bosses (Level 5 in this guide)**  
-  - Stronger enemies that require **alliance rallies** to defeat.
-  - Reward three different groups:
-    - The **spawner** (discovery reward)
-    - The **rally leader**
-    - All **rally members**
+- **Gold Zombie Bosses**
+  - Require alliance rallies.
+  - Reward the **discoverer**, the **rally leader**, and **rally members** separately.
+  - Boss rewards increase with boss level, especially the discoverer's reward.
 
 The basic loop is:
 
-1. Spend stamina to **kill small zombies**.  
-2. Small zombies periodically **spawn Gold Zombie bosses**.  
-3. Your alliance runs **rallies** on these bosses.  
-4. The **spawner**, **leader**, and **members** all get rewarded when the boss dies.
-
-In a well-organized alliance, this event produces **exceptional rewards per stamina** and **huge free value for rally members**.
+1. Spend stamina killing Level 10 invading zombies.
+2. Those kills periodically discover Gold Zombie bosses.
+3. Your alliance kills the bosses with rallies.
+4. The discoverer receives a large mail reward when the discovered boss dies.
+5. Rally leaders and rally members receive their own battle rewards as well.
 
 ---
 
-## 2. Reward Breakdown
+## 2. Important Correction: Discovery Rewards Scale With Boss Level
 
-All numbers below are based on **Level 10 Small Zombies** and **Level 5 Gold Zombie bosses**.
+An earlier version of this guide treated the discovery reward as though it were a fixed Level 5 reward. That was incorrect.
 
-### 2.1 Small Zombie (Level 10)
+The previously listed discovery reward of **220 Courage Medals / ~769k Gold** corresponds to approximately a **Level 15 boss**, while a Level 5 discovery starts at **200 Courage Medals / ~702k Gold**.
+
+This matters because any rewards-per-stamina calculation for spawning bosses depends on **what level of boss you are actually discovering**.
+
+### Discoverer Courage Medals by Boss Level
+
+The Courage Medal progression is very consistent: **+10 medals for every +5 boss levels**.
+
+| Boss Level | Discoverer Courage Medals | Approx. Discoverer Gold |
+|---:|---:|---:|
+| 5 | 200 | 702k |
+| 10 | 210 | 735k |
+| 15 | 220 | 769k |
+| 20 | 230 | 802k |
+| 25 | 240 | 836k |
+| 30 | 250 | 869k |
+| 35 | 260 | 902k |
+| 40 | 270 | 936k |
+| 45 | 280 | 969k |
+| 50 | 290 | ~1.00M |
+| 55 | 300 | ~1.05M |
+| 60 | 310 | ~1.10M |
+| 65 | 320 | ~1.15M |
+| 70 | 330 | ~1.20M |
+| 75 | 340 | ~1.25M |
+| 80 | 350 | ~1.30M |
+| 85 | 360 | ~1.35M |
+| 90 | 370 | ~1.40M |
+| 95 | 380 | ~1.45M |
+| 100 | 390 | ~1.50M |
+
+> **Data quality note:** Medal progression through Level 100 is well-supported by community guides. Resource values are based on player-recorded rewards and observed scaling, so treat rounded values as approximate rather than official game data.
+
+### Higher Levels
+
+Bosses can exist above Level 100 on mature servers. The observed pattern suggests roughly another **+10 Courage Medals and ~50k Gold per +5 boss levels**, but values above Level 100 should be treated as **provisional until directly verified**.
+
+A simple extrapolation would be:
+
+| Boss Level | Estimated Discoverer Medals | Estimated Gold |
+|---:|---:|---:|
+| 105 | 400 | ~1.55M |
+| 110 | 410 | ~1.60M |
+| 115 | 420 | ~1.65M |
+| 120 | 430 | ~1.70M |
+| 125 | 440 | ~1.75M |
+| 130 | 450 | ~1.80M |
+| 135 | 460 | ~1.85M |
+| 140 | 470 | ~1.90M |
+| 145 | 480 | ~1.95M |
+| 150 | 490 | ~2.00M |
+
+Do **not** treat this 105-150 table as confirmed game data yet.
+
+---
+
+## 3. What Is In the Discovery Reward?
+
+The discoverer reward is a whole reward package, not just Courage Medals.
+
+Player-recorded examples show it contains:
+
+- Courage Medals
+- Food
+- Iron
+- Gold
+- Hero XP
+- Combat / drone data
+- Stamina items (commonly two 10-stamina items in recorded examples)
+
+Selected recorded examples:
+
+| Boss Level | Iron | Food | Gold | Hero XP | Combat / Drone Data |
+|---:|---:|---:|---:|---:|---:|
+| 5 | 552k | 552k | 702k | 1.4M | ~1.3k |
+| 10 | 585k | 585k | 735k | 1.5M | ~1.4k |
+| 15 | 602k | 602k | 769k | 1.6M | ~1.4k |
+| 20 | 635k | 635k | 802k | 1.7M | ~1.4k |
+| 25 | 652k | 652k | 836k | 1.8M | ~1.4k |
+| 30 | 685k | 685k | 869k | 1.9M | ~1.5k |
+| 35 | 719k | 719k | 902k | 2.1M | ~1.5k |
+| 40 | 735k | 735k | 936k | 2.2M | ~1.5k |
+| 45 | 769k | 769k | 969k | 2.4M | ~1.5k |
+| 50 | 785k | 785k | ~1.00M | 2.6M | ~1.6k |
+| 55 | 825k | 825k | ~1.05M | 2.7M | ~1.6k |
+| 60 | 864k | 864k | ~1.10M | 2.9M | ~1.7k |
+| 75 | 982k | 982k | ~1.25M | 3.3M | ~2.0k |
+
+These values make one point very clear: **a higher-level boss is much more valuable to the player who discovered it.**
+
+---
+
+## 4. Small Zombie Rewards and Spawn Rate
+
+### Level 10 Small Zombie
 
 **Cost:**
 
-- 10 stamina  
-- No troop loss
+- 10 stamina
+- Normally no meaningful troop-loss concern
 
-**Average rewards:**
+Observed rewards used in our original testing:
 
-- 10 event medals  
-- ~268k food  
-- ~268k iron  
-- ~268k gold  
-- ~263k hero XP  
-- ~1.3k drone data  
+- 10 Courage Medals
+- ~268k food
+- ~268k iron
+- ~268k gold
+- ~263k hero XP
+- ~1.3k drone / combat data
 
-**Observed mechanic:**
+### Spawn Rate
 
-- A Gold Zombie boss spawns roughly **every 5–7 small zombies killed**.  
-- For calculations, we use a midpoint of **1 boss per 6 small zombies**.
+Our observed working assumption has been roughly:
 
----
+- **1 Gold Zombie boss per 5-7 small zombies killed**
+- For rough calculations, use **1 boss per 6 kills**
+- That means approximately **60 stamina spent on small zombies per discovered boss**
 
-### 2.2 Gold Zombie Spawn (Discovery Reward)
-
-When you kill enough small zombies and **spawn a Gold Zombie boss**, you earn a **discovery reward** when that boss dies:
-
-**Discovery reward (spawner):**
-
-- 220 event medals  
-- 602k iron  
-- 602k food  
-- 769k gold  
-- 1.6M hero XP  
-- 1.4k drone data  
-
-**Important:**
-
-- You receive this **even if you do not join or lead** the rally.  
-- You only need the boss to **die** (killed by someone in or out of your alliance).
-
-**Effective cost assumption:**
-
-- ~6 small zombies per spawn × 10 stamina each = **60 stamina per boss spawned**.
+This is an average, not a guaranteed pity counter.
 
 ---
 
-### 2.3 Gold Zombie Rally Leader (Level 5 Boss)
+## 5. Discovery Efficiency Per Stamina
 
-**Cost:**
+Because discoveries scale with boss level, there is no single correct "discovery reward per stamina" value.
 
-- 20 stamina  
-- ~114 troop loss to death + healing (at 4.6 million march power, with a level 5 boss)
+Assuming one discovered boss every 60 stamina:
 
-**Rewards (leader):**
+| Boss Level | Discovery Medals | Discovery Medals / Stamina | Discovery Gold | Discovery Gold / Stamina |
+|---:|---:|---:|---:|---:|
+| 5 | 200 | 3.33 | 702k | 11.7k |
+| 15 | 220 | 3.67 | 769k | 12.8k |
+| 50 | 290 | 4.83 | ~1.00M | ~16.7k |
+| 75 | 340 | 5.67 | ~1.25M | ~20.8k |
+| 100 | 390 | 6.50 | ~1.50M | ~25.0k |
 
-- 80 medals  
-- 552k iron  
-- 552k food  
-- 702k gold  
-- 1.4M hero XP  
-- 1.7k drone data  
+Remember: these are **discovery rewards only**. The same 60 stamina also earned the rewards from roughly six small zombies.
 
-The rally leader typically receives **the highest single reward**, but also takes on **troop losses** and spends stamina.
+### Combined Small-Zombie + Discovery Medal Efficiency
 
----
+Six small zombies give approximately **60 Courage Medals** before the discovery reward is counted.
 
-### 2.4 Gold Zombie Rally Member (Level 5 Boss)
+So, under the 1-boss-per-6-kills assumption:
 
-**Cost:**
+| Boss Level | Total Medals per 60 Stamina | Approx. Medals / Stamina |
+|---:|---:|---:|
+| 5 | 260 | 4.33 |
+| 15 | 280 | 4.67 |
+| 50 | 350 | 5.83 |
+| 75 | 400 | 6.67 |
+| 100 | 450 | 7.50 |
 
-- 0 stamina  
-
-**Rewards (member):**
-
-- 40 medals  
-- 331k iron  
-- 331k food  
-- 421k gold  
-- ~880k hero XP  
-
-**Key point:**
-
-- Rally members **spend no stamina** and still earn strong rewards.  
-- This is basically **free value** if you are online to join rallies.
+This is why **summoning level matters**. The old guide's fixed figure of ~4.67 medals/stamina was only representative of roughly a Level 15 discovery.
 
 ---
 
-## 3. Efficiency Analysis (Rewards per Stamina)
+## 6. Rally Leader and Rally Member Rewards
 
-Below, “per stamina” means **expected rewards per 1 stamina spent**, using the above numbers.
+### Rally Leader
 
-### 3.1 Small Zombies Only (Ignoring Boss Spawns)
+Starting a boss rally costs stamina (commonly 20 stamina in our observed data).
 
-Each small zombie:
+For the original Level 5 test data, the rally leader received approximately:
 
-- Costs **10 stamina**
-- Rewards:
-  - 10 medals
-  - 268k food
-  - 268k iron
-  - 268k gold
-  - 263k hero XP
-  - 1.3k drone data
+- 80 Courage Medals
+- 552k iron
+- 552k food
+- 702k gold
+- 1.4M hero XP
+- ~1.7k drone / combat data
 
-**Per 1 stamina (small zombie only):**
+Community documentation indicates the **boss-kill Courage Medal reward is 80 for the rally leader regardless of boss level**, while the discoverer bonus is the part that scales strongly by level.
 
-- Medals: **1 medal / stamina**
-- Food: **26.8k food / stamina**
-- Iron: **26.8k iron / stamina**
-- Gold: **26.8k gold / stamina**
-- Hero XP: **26.3k XP / stamina**
-- Drone data: **130 drone / stamina**
+Higher-level bosses are harder and may increase troop/healing costs, so do not assume the old Level 5 casualty figure applies to all bosses.
 
-This is your **baseline** if bosses didn’t exist.
+### Rally Member
 
----
+Rally members normally spend **0 stamina** to join.
 
-### 3.2 Discovery Reward Only (Spawning Bosses)
+Original Level 5 observed rewards were approximately:
 
-Assume **60 stamina** to spawn 1 boss (6 small zombies).
+- 40 Courage Medals
+- 331k iron
+- 331k food
+- 421k gold
+- ~880k hero XP
 
-Discovery reward:
+The exact resource package can scale with boss level, but the strategic conclusion is unchanged:
 
-- 220 medals  
-- 602k iron  
-- 602k food  
-- 769k gold  
-- 1.6M hero XP  
-- 1.4k drone data  
-
-**Per 1 stamina (discovery only):**
-
-- Medals: **~3.67 medals / stamina**
-- Food: **~10.0k food / stamina**
-- Iron: **~10.0k iron / stamina**
-- Gold: **~12.8k gold / stamina**
-- Hero XP: **~26.7k XP / stamina**
-- Drone data: **~23.3 drone / stamina**
-
-Remember: those 60 stamina also gave you **6 small zombie rewards**.
+> **If you have a free march, joining Gold Zombie rallies is extremely high-value because it costs no stamina.**
 
 ---
 
-### 3.3 Combined “Small Zombies + Discovery” Efficiency
+## 7. Summoning Level Is Part of the Strategy
 
-For one **60-stamina cycle** (6 small kills + 1 boss spawned and killed):
+Your possible Gold Zombie levels are controlled by your **Summoning Level**.
 
-From 6 small zombies:
+Community documentation based on customer-support information reports that your summon range is generally:
 
-- 60 medals  
-- 1.608M food  
-- 1.608M iron  
-- 1.608M gold  
-- 1.578M hero XP  
-- 7.8k drone data  
+- Up to **15 levels below** your current Summoning Level
+- Up to **5 levels above** your current Summoning Level
+- Higher levels within that range appear less frequently
 
-From 1 discovery:
+Your Summoning Level can increase when:
 
-- 220 medals  
-- 602k food  
-- 602k iron  
-- 769k gold  
-- 1.6M hero XP  
-- 1.4k drone data  
+1. A boss you discovered that is above your current Summoning Level gets killed, or
+2. You personally lead kills on sufficiently high bosses; this can raise the level in +5 steps a limited number of times during an event.
 
-**Total per 60 stamina:**
+The level is reported to carry forward between Zombie Invasion events rather than resetting downward.
 
-- 280 medals  
-- 2.21M food  
-- 2.21M iron  
-- 2.377M gold  
-- 3.178M hero XP  
-- 9.2k drone data  
+### Strategic implication
 
-**Per 1 stamina (small + discovery):**
+**Do not evaluate spawning only by today's immediate reward. Increasing your Summoning Level improves the value of future discoveries.**
 
-- Medals: **~4.67 medals / stamina**
-- Food: **~36.8k food / stamina**
-- Iron: **~36.8k iron / stamina**
-- Gold: **~39.6k gold / stamina**
-- Hero XP: **~53.0k XP / stamina**
-- Drone data: **~153.3 drone / stamina**
-
-**This is the true efficiency of “spamming small zombies” if your alliance reliably kills the bosses you spawn.**
+An alliance should therefore help members get higher eligible bosses killed instead of letting difficult discoveries expire.
 
 ---
 
-### 3.4 Rally Leader Efficiency (Boss Only)
+## 8. Reassessed Strategy Recommendations
 
-Leading a Level 5 boss:
+### If Your Goal Is Courage Medals and Resources
 
-- Cost: **20 stamina**
-- Rewards:
-  - 80 medals
-  - 552k food
-  - 552k iron
-  - 702k gold
-  - 1.4M hero XP
-  - 1.7k drone data
+**Primary strategy: kill small zombies and make sure every discovered boss dies.**
 
-**Per 1 stamina (leader only):**
+Why:
 
-- Medals: **4 medals / stamina**
-- Food: **27.6k food / stamina**
-- Iron: **27.6k iron / stamina**
-- Gold: **35.1k gold / stamina**
-- Hero XP: **70k XP / stamina**
-- Drone data: **85 drone / stamina**
+- Small zombies give their own rewards.
+- They generate discovery opportunities.
+- Discovery Courage Medals scale strongly with boss level.
+- Higher Summoning Level makes the small-zombie farming loop substantially more valuable than the old fixed-Level-15 model suggested.
 
-Compared to “small + discovery,” leading is:
+For a mature account spawning Level 75-100 bosses, small-zombie farming can be **much better** than the old ~4.67 medals/stamina estimate.
 
-- Slightly **worse for medals and gold per stamina**.
-- **Better for hero XP per stamina**.
+### If Your Goal Is Hero XP
 
----
+Leading rallies remains very strong because boss-leader rewards provide substantial Hero XP per stamina.
 
-### 3.5 Full Cycle: Spawn + Lead Your Own Boss
+However, the old statement that leading is always the best Hero-XP option was based on **Level 5 leader rewards compared with a Level 15 discovery reward**. That comparison was not apples-to-apples.
 
-One full cycle:
+Use this safer rule:
 
-- 6 small zombies (60 stamina)
-- 1 boss where you are **rally leader** (20 stamina)  
-- Total: **80 stamina**
+- **Lead rallies when your alliance needs damage, when you are progressing Summoning Level, or when you specifically value the leader reward.**
+- Do not spend all stamina leading low-level bosses while ignoring your own small-zombie spawning opportunities.
 
-From 6 smalls + discovery (above):
+### If You Are Online but Conserving Stamina
 
-- 280 medals  
-- 2.21M food  
-- 2.21M iron  
-- 2.377M gold  
-- 3.178M hero XP  
-- 9.2k drone data  
+**Join rallies constantly.**
 
-Add rally leader rewards:
+This remains one of the strongest recommendations in the guide:
 
-- +80 medals  
-- +552k food  
-- +552k iron  
-- +702k gold  
-- +1.4M hero XP  
-- +1.7k drone data  
+- 0 stamina to join
+- Courage Medals
+- Resources
+- Hero XP
+- Helps alliance members secure their discovery rewards
 
-**Total per 80 stamina:**
+### Best Alliance-Wide Strategy
 
-- 360 medals  
-- 2.762M food  
-- 2.762M iron  
-- 3.079M gold  
-- 4.578M hero XP  
-- 10.9k drone data  
+A strong alliance should operate like a production line:
 
-**Per 1 stamina (spawn + lead your own boss):**
+1. Many members farm small zombies.
+2. Members immediately share discovered bosses.
+3. Strong players keep rallies running.
+4. Everyone fills rally seats.
+5. Prioritize bosses that are at risk of expiring.
+6. Help members kill high-end discoveries so their Summoning Levels keep progressing.
 
-- Medals: **4.5 medals / stamina**
-- Food: **~34.5k food / stamina**
-- Iron: **~34.5k iron / stamina**
-- Gold: **~38.5k gold / stamina**
-- Hero XP: **~57.2k XP / stamina**
-- Drone data: **~136.3 drone / stamina**
+This produces more value than having everyone independently spend stamina leading whatever boss is visible.
 
 ---
 
-### 3.6 Rally Member Efficiency
+## 9. Common Mistakes to Avoid
 
-Rally members:
+- **Letting stamina cap during the event**
+  - Wastes small-zombie kills and potential discoveries.
 
-- Spend **0 stamina**
-- Gain:
-  - 40 medals
-  - 331k food
-  - 331k iron
-  - 421k gold
-  - ~880k hero XP  
+- **Letting discovered bosses expire**
+  - The discoverer loses the large mail reward if the boss never dies.
 
-In stamina terms, this is **pure profit**:  
-you get rewards without spending stamina.
+- **Assuming every discovery is worth the same amount**
+  - Discovery rewards scale significantly with boss level.
 
----
+- **Ignoring Summoning Level progression**
+  - Higher Summoning Level improves future discovery rewards.
 
-## 4. 1000-Stamina Session Examples
+- **Over-leading low-level bosses when your goal is medals/resources**
+  - Leader Courage Medals do not appear to scale the way discovery medals do.
 
-Here are example totals for a **1000-stamina event session**, assuming all spawned bosses are killed.
+- **Ignoring rallies as a member**
+  - This throws away zero-stamina rewards and slows alliance boss clearing.
 
-### 4.1 Scenario A – Pure Spawner (Farm Smalls, Don’t Lead)
+- **Using your strongest march on small zombies unnecessarily**
+  - Save strong marches for bosses when practical.
 
-Use “small + discovery” rates:
-
-**Per 1 stamina:**
-
-- 4.67 medals
-- 36.8k food
-- 36.8k iron
-- 39.6k gold
-- 53.0k XP
-- 153.3 drone data
-
-**For 1000 stamina (approx):**
-
-- **4,667 medals**
-- **36.8M food**
-- **36.8M iron**
-- **39.6M gold**
-- **53.0M hero XP**
-- **153k drone data**
-
-Plus any **extra rally member rewards**, which cost **0 stamina**.
+- **Using old fixed Level 5/15 efficiency calculations for a mature account**
+  - Your actual efficiency may be dramatically higher if you regularly discover high-level bosses.
 
 ---
 
-### 4.2 Scenario B – Spawn + Always Lead Your Own Bosses
-
-Use “spawn + lead” rates:
-
-**Per 1 stamina:**
-
-- 4.5 medals
-- 34.5k food
-- 34.5k iron
-- 38.5k gold
-- 57.2k XP
-- 136.3 drone data
-
-**For 1000 stamina (approx):**
-
-- **4,500 medals**
-- **34.5M food**
-- **34.5M iron**
-- **38.5M gold**
-- **57.2M hero XP**
-- **136k drone data**
-
-You also suffer **troop losses** (~114 per boss), which require healing.
-
----
-
-### 4.3 Scenario C – Mostly Leading Others’ Bosses
-
-If you can spend most stamina on **leading rallies** (bosses spawned by others):
-
-**Leader-only per 1 stamina:**
-
-- 4 medals
-- 27.6k food
-- 27.6k iron
-- 35.1k gold
-- 70k XP
-- 85 drone data
-
-**For 1000 stamina (approx):**
-
-- **4,000 medals**
-- **35.1M gold**
-- **70M hero XP**  
-- (and corresponding food/iron/drone totals)
-
-This scenario is **excellent for hero XP**, but slightly worse than pure spawning for medals and resources.
-
----
-
-## 5. Best Strategies (What Actually Works Best)
-
-### Medal & Resource Efficiency
-
-- **Best overall per stamina**:  
-  - **Farm small zombies + let alliance kill your bosses**  
-  - Roughly **4.67 medals / stamina** and **39.6k gold / stamina**.
-
-- **Very strong alternative** (slightly lower medals/resources, higher XP):  
-  - **Spawn + lead your own bosses**.
-
-### Hero XP Efficiency
-
-- **Best hero XP per stamina**:
-  - **Leading rallies on bosses spawned by others** (~70k XP / stamina).
-
-- **Second best**:
-  - **Spawn + lead your own bosses** (~57.2k XP / stamina).
-
-### Zero-Stamina Value
-
-- **Joining rallies as a member**:
-  - Costs **0 stamina**, gives **excellent rewards**.  
-  - Always join every Gold Zombie rally you can.
-
----
-
-## 6. Recommended Stamina Usage
-
-### If You Want Maximum Medals & Gold (Efficiency Player)
-
-- Spend **almost all stamina on small zombies**.  
-- Post coordinates whenever you spawn a Gold Zombie boss.  
-- Let **other strong players lead** the rallies.
-- Join as many rallies as **member** as you can (free value).
-
-This gives you the **best medal and gold efficiency per stamina**.
-
----
-
-### If You Want Maximum Hero XP (Rally General)
-
-- Focus stamina on **leading rallies** on bosses spawned by others.  
-- Do some small zombies to help spawn bosses, but prioritize:
-  - **Starting** rallies.
-  - Keeping rallies running constantly during active times.
-
-This gives the **best hero XP per stamina**, with still good medals/resources.
-
----
-
-### Balanced Strategy (Strong, Active Player)
-
-- Use stamina to **farm small zombies** and **spawn bosses**.
-- **Lead** some of your own bosses, especially when:
-  - No one else is leading.
-  - You want more XP and to help the alliance.
-
-This gives **strong all-round rewards** and supports your team.
-
-
-## 8. Common Mistakes to Avoid
-
-- **Letting stamina cap during the event**  
-  - Wastes potential spawns and medals.
-
-- **Not understanding discovery rewards**  
-  - You **do not need to hit your own boss** to get the discovery reward.  
-  - You just need the boss to **die while you are the spawner**.
-
-- **Farming small zombies in a dead alliance**  
-  - If no one kills your bosses, you lose the discovery value.  
-  - Consider finding a more active alliance for this event.
-
-- **Over-leading when not necessary**  
-  - Leading every rally when others can lead reduces your stamina efficiency and costs more in troop heals.
-
-- **Ignoring rallies as a member**  
-  - Missing rallies means **missing free medals, gold, and XP**.
-
-- **Using your best march on small zombies**  
-  - Overkill that doesn’t usually change the number of hits.  
-  - Use **weaker squads on small zombies**, keep your best march for bosses.
-
----
-
-## 9. Simple Discord-Ready Guide (Copy/Paste)
-
-You can paste this directly in your alliance Discord:
-
----
+## 10. Discord-Ready Quick Guide
 
 **Gold Zombie / Zombie Invasion – Quick Alliance Guide**
 
-**What to do:**
+- Spend stamina on **Level 10 invading zombies** to earn rewards and discover Gold Zombie bosses.
+- **Discovery rewards scale with boss level.** Higher Summoning Level = more valuable discoveries.
+- When you discover a boss, **share it immediately and make sure it dies**. You receive the discovery reward even if someone else leads the rally.
+- **Join every Gold Zombie rally you can**. Rally members spend **0 stamina** and still receive rewards.
+- Strong players should keep rallies moving and help kill difficult high-level discoveries.
+- Work on increasing your **Summoning Level**; it improves future boss levels and therefore future discovery rewards.
+- Do not let high-value discoveries expire.
 
-- **Never let your stamina cap** during this event.  
-- Use stamina to **kill Level 10 small zombies** – these will **spawn Gold Zombie bosses**.  
-- When you spawn a boss:
-  - **Post the coordinates** in alliance chat/Discord and ask for a rally.
-- **Join every Gold Zombie rally** you see:
-  - It costs **0 stamina** and gives medals, resources, and hero XP.
+### Rough discoverer Courage Medal reference
 
-**Roles:**
+- Lv5: 200
+- Lv25: 240
+- Lv50: 290
+- Lv75: 340
+- Lv100: 390
 
-- **Spawners**:  
-  - High-activity players.  
-  - Kill lots of small zombies to spawn bosses.  
-  - Post every boss and make sure someone rallies it.
-
-- **Rally Leaders**:  
-  - Strongest players.  
-  - Start **5-minute rallies** on every boss.  
-  - Keep rallies running during event time.
-
-- **Everyone else**:  
-  - Join all Gold Zombie rallies you can.  
-  - Use any march that won’t die; stamina is **not** consumed.
-
-**Why this works:**
-
-- Killing small zombies + having your bosses killed gives **~4.67 medals per stamina** and **huge gold/resources**.  
-- Leading and joining rallies gives **massive hero XP**.  
-- Rally members get **great rewards for 0 stamina**.
-
-**Main rules:**
-
-- Spend stamina on **small zombies**.  
-- Always **announce spawned bosses**.  
-- **Kill all bosses** before they expire.  
-- **Join every rally** you see.
+**Bottom line:** farm smalls, kill every discovered boss, push Summoning Level upward, and fill every rally seat you can.
 
 ---
-i was here
+
+## 11. Sources / Data Notes
+
+This guide combines in-game observations with community-maintained data. Because *Last War* does not appear to publish a complete official reward table, exact resource values should be treated as observational and may change with game updates.
+
+Useful community references include:
+
+- Last War Tutorial – Zombie Invasion guide and boss discovery medal table
+- LastWar Wiki – Courage Medal / Zombie Invasion mechanics
+- Theria Games – Zombie Invasion and Courage Medal guides
+- Player-recorded Japanese reward logs used to cross-check resource scaling
+
+If you have screenshots of discovery-mail rewards for boss levels not represented above, please contribute them so the table can be upgraded from estimated to verified values.
