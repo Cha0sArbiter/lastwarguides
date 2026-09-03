@@ -334,7 +334,7 @@ This produces more value than having everyone independently spend stamina leadin
 
 ---
 
-## 10. Discord-Ready Quick Guide
+## 10. Discord Quick Guide
 
 **Gold Zombie / Zombie Invasion – Quick Alliance Guide**
 
