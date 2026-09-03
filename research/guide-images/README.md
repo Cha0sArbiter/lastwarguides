@@ -1,73 +1,31 @@
-# Guide Image Research Library
+# Guide Image Research Index
 
-This folder is a research/reference corpus for **Guidebook 2.0**.
+This folder supports **Guidebook 2.0** research into community-created *Last War: Survival* guide images.
 
-A large portion of the best *Last War: Survival* community documentation is published as images rather than text. These images are collected here **for data extraction, translation, comparison, and verification** while building the 2.0 guides.
+A large amount of useful Last War information is shared as infographics, screenshots, charts, and image-based guides. Rather than automatically downloading those images, this folder keeps a **navigational index of where they can be found**.
 
-The images in this folder are **not intended to be republished or embedded as finished Guidebook 2.0 content**. Finished guides should present independently written explanations, tables, and conclusions derived from the research, with source attribution preserved in the guide's Sources section.
+Use [`manifest.md`](./manifest.md) as the main index.
 
-## Collection rules
+## What the index records
 
-For every stored image:
+For each useful visual source, record as much of the following as is available:
 
-- Preserve the image as originally published whenever possible.
-- Do not remove watermarks, creator names, handles, or attribution embedded in the image.
-- Record the original post/page URL in `manifest.csv`.
-- Record the creator or posting account whenever it can be identified.
-- Record the source platform and language.
-- Prefer the earliest/original source over reposts when it can be found.
-- If the same image appears in multiple places, keep one canonical copy and record useful alternate source links in the notes.
-- Do not present community-created images as original Guidebook 2.0 artwork.
-- If a creator requests removal, remove the stored copy while retaining a text citation/source note where appropriate.
+- event or game system;
+- topic;
+- creator / posting account;
+- original source page or post;
+- direct image URL when one is stable and known;
+- relevant season or server era;
+- a short description of the data contained in the image.
 
-## Suggested organization
+## Organization
 
-Images should be grouped by event or system as the corpus grows, for example:
+`manifest.md` is grouped by event/system and then by topic so it can be browsed directly on GitHub.
 
-- `arms-race/`
-- `alliance-duel/`
-- `gold-zombies/`
-- `wanted-boss/`
-- `zombie-siege/`
-- `generals-trial/`
-- `marshall/`
-- `desert-storm/`
-- `seasons/`
-- `progression/`
-- `misc/`
-
-Folders only need to be created once the first image for that category is added.
-
-## Naming convention
-
-Prefer filenames that remain understandable without opening the image:
-
-`<event>_<topic>_<creator-or-source>_<date-or-version>.<ext>`
-
-Examples:
-
-- `arms-race_troop-promotion_game8_2026.png`
-- `alliance-duel_weekly-points_reddit-u-example_2025.jpg`
-- `zombie-siege_wave-power_unknown-creator_v1.png`
-
-Do not rename a file in a way that obscures authorship when the original filename already contains meaningful creator information.
-
-## Manifest
-
-Every image committed to this directory should have a corresponding row in `manifest.csv`.
-
-The manifest is intended to make it possible to:
-
-- trace every image back to its source;
-- identify and credit creators;
-- distinguish original posts from reposts;
-- track language, event, season, and server-era relevance;
-- identify duplicate or superseded charts;
-- record translation/research notes;
-- track whether the image has contributed data to a finished guide.
+The goal is simple: make useful image-based community research easy to locate again when building or validating Guidebook 2.0 guides.
 
 ## Research use
 
-The presence of an image in this folder does **not** mean every statement in it is accepted as correct. Community graphics can become outdated, contain transcription errors, or reflect mechanics from a particular server age or season.
+An entry in the index does **not** mean the information in that image is accepted as correct. Community graphics can become outdated, contain transcription errors, or reflect mechanics from a particular server age or season.
 
-Use images as evidence leads. Important numerical claims should be cross-checked against additional sources, newer versions, or in-game observations whenever practical.
+Use indexed images as evidence leads. Important numerical claims should still be cross-checked against additional sources, newer versions, or in-game observations whenever practical.
