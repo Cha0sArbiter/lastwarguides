@@ -75,7 +75,7 @@ This is one of the central resource-management principles of Last War.
 
 ## 3. Scoring Reference
 
-The values below are documented from a current Japanese Arms Race guide and should be checked against your own in-game phase because the required chest thresholds scale by progression group.
+The values below are current scoring references. **Check the thresholds shown in your own Arms Race phase before committing a large stockpile**, because chest requirements can vary by progression group and may change with game updates.
 
 ### Hero Advancement
 
@@ -85,7 +85,7 @@ The values below are documented from a current Japanese Arms Race guide and shou
 | Hero EXP | **1 point per 2,000 EXP consumed** |
 | Buy a pack containing Diamonds | **30 per Diamond** |
 
-A documented HQ21-22 example uses chest thresholds of approximately:
+For the HQ21-22 example used in this guide, the chest thresholds are approximately:
 
 - First chest: **2,000 points**
 - Second chest: **4,000 points**
@@ -118,7 +118,7 @@ A strong compromise when conserving tickets is:
 | Reduce construction time by 1 minute | **10 points** |
 | Buy a pack containing Diamonds | **30 per Diamond** |
 
-A documented HQ21-22 example uses:
+For the same HQ21-22 example:
 
 - First chest: **5,000 points**
 - Second chest: **10,000 points**
@@ -188,11 +188,11 @@ Total promotion scoring:
 
 That is more than **3x the troop-action score** of simply producing the Lv.7 troop directly.
 
-The Japanese test data reports that stepped promotion does **not increase the total final training time or material requirement** versus reaching the same final troop level directly; it simply allows the intermediate promotion actions to score.
+For the same final troop level, stepped promotion can preserve the overall training-time and material requirement while allowing each intermediate promotion action to score. This makes pre-positioned lower-tier troops extremely valuable during Unit Progression.
 
 ### Worked HQ21 example
 
-A documented test used 600 troops and the sequence:
+One useful test case uses 600 troops and the sequence:
 
 1. Train 600 Lv.3 troops
 2. Promote Lv.3 → Lv.4
@@ -200,13 +200,13 @@ A documented test used 600 troops and the sequence:
 4. Promote Lv.5 → Lv.6
 5. Promote Lv.6 → Lv.7
 
-Recorded result:
+Result:
 
 - **60,100 Arms Race points**
 - **600 net troops added**
 - **1,450 minutes of training reduction**
 
-The published HQ21-22 example required approximately **60,000 points** for the full Unit Progression phase.
+The HQ21-22 example requires approximately **60,000 points** for the full Unit Progression phase, so this sequence is enough to clear all three chests.
 
 ### Practical setup
 
@@ -224,7 +224,7 @@ This should be coordinated with your actual troop needs. Do not cripple account 
 | Reduce research time by 1 minute | **10 points** |
 | Buy a pack containing Diamonds | **30 per Diamond** |
 
-A documented HQ21-22 example uses:
+For the HQ21-22 example:
 
 - First chest: **5,000 points**
 - Second chest: **10,000 points**
@@ -256,7 +256,7 @@ Losing many hours of research production to protect a small Arms Race completion
 | Spend 1 AP/stamina | **10 points** |
 | Buy a pack containing Diamonds | **30 per Diamond** |
 
-A documented HQ21-22 example uses approximately:
+For the HQ21-22 example, the approximate chest thresholds are:
 
 - First chest: **1,500 points**
 - Second chest: **10,000 points**
@@ -320,7 +320,7 @@ Stage Swap is useful when:
 
 ### Important restrictions
 
-Community documentation notes that swapping can be blocked when:
+Swapping can be blocked when:
 
 - the target phase has already ended
 - there are unclaimed phase chests
@@ -340,7 +340,7 @@ A useful priority framework is:
 
 **Hero Advancement**
 - Excellent if recruitment tickets are stockpiled.
-- 30 tickets can complete the documented HQ21-22 example by themselves.
+- 30 tickets can complete the HQ21-22 example by themselves.
 
 **Unit Progression**
 - Extremely efficient if waterfall promotions are prepared.
@@ -457,14 +457,14 @@ This is often the biggest opportunity cost in the entire event.
 
 ---
 
-## 14. Data Notes and Sources
+## 14. Sources and Data Notes
 
 Exact Arms Race chest thresholds and reward contents can vary by HQ/progression group and can change with updates. **Your current in-game Arms Race screen is the final authority for your account.**
 
-Primary numerical cross-checks used for this draft:
+Sources used to cross-check the mechanics and numerical examples in this guide:
 
-- Game8 Japan — Arms Race themes, scoring rules, HQ21-22 examples, stage swap, rewards and troop-promotion testing: https://game8.jp/lastwar-survival/599827
-- Game8 Japan — troop mechanics / progression research: https://game8.jp/lastwar-survival/599193
+- Game8 — Arms Race themes, scoring rules, HQ21-22 examples, Stage Swap, rewards, and troop-promotion testing: https://game8.jp/lastwar-survival/599827
+- Game8 — troop mechanics and progression data: https://game8.jp/lastwar-survival/599193
 - Last War Tutorial — Arms Race badge structure and daily milestone explanation: https://www.lastwartutorial.com/arms-race/
 - Last War Guide — Arms Race structure and 18-badge strategy: https://lastwarguide.net/en/events/arms-race
 
