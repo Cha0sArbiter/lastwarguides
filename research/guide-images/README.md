@@ -2,7 +2,9 @@
 
 This folder is a research/reference corpus for **Guidebook 2.0**.
 
-A large portion of the best *Last War: Survival* community documentation is published as images rather than text. These images are collected here so their data can be reviewed, translated, cross-checked, and cited while building the 2.0 guides.
+A large portion of the best *Last War: Survival* community documentation is published as images rather than text. These images are collected here **for data extraction, translation, comparison, and verification** while building the 2.0 guides.
+
+The images in this folder are **not intended to be republished or embedded as finished Guidebook 2.0 content**. Finished guides should present independently written explanations, tables, and conclusions derived from the research, with source attribution preserved in the guide's Sources section.
 
 ## Collection rules
 
@@ -62,7 +64,7 @@ The manifest is intended to make it possible to:
 - track language, event, season, and server-era relevance;
 - identify duplicate or superseded charts;
 - record translation/research notes;
-- track whether the image has been used in a finished guide.
+- track whether the image has contributed data to a finished guide.
 
 ## Research use
 
