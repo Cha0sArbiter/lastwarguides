@@ -2,11 +2,13 @@
 
 Arms Race is a daily individual event built around **timing normal account growth into 4-hour scoring windows**. The event is less about spending more resources and more about spending the same resources at the right time.
 
-The practical daily target for most players is simple:
+The practical daily baseline for most players is simple:
 
-> **Earn 18 Arms Race Badges each day.**
+> **Earn at least 18 Arms Race Badges each day.**
 
 You do not need to complete every phase to do this. Each fully completed phase gives **6 badges** (1 + 2 + 3), so three fully completed phases are enough to reach 18.
+
+However, **18 badges is the end of the daily badge milestone track, not necessarily the point where you should stop playing Arms Race for the day.** Each phase chest also contains its own rewards, including Skill Medals, resources, and speedups. Those chest rewards can make additional phases worthwhile even after the daily 18-badge milestone is complete.
 
 ---
 
@@ -43,13 +45,39 @@ Daily badge milestones are:
 - **8 badges**
 - **18 badges**
 
-The highest daily milestone is therefore reached by completing all three chests in **three phases**.
+The highest daily badge milestone is therefore reached by completing all three chests in **three phases**.
 
-### Do not over-score by default
+### Phase chests also have their own rewards
 
-Unless you are intentionally competing for the daily ranking, stop after the third chest. Resources spent beyond the final phase chest only improve ranking and do not create another phase milestone.
+The badges are only one part of each chest. Every chest can also award progression resources.
 
-A disciplined player should normally optimize around **18 badges first**, then decide whether the ranking reward is worth additional resources.
+For example, a **Lv.29–30 Unit Progression** phase showed the following rewards:
+
+| Chest | Point Threshold | Badges | Skill Medals | Coin Chest (SR) | Food Chest (SR) | Iron Chest (SR) | 5m Speed-ups |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| First | 15,000 | 1 | 200 | 4 | 4 | 4 | 8 |
+| Second | 30,000 | 2 | 400 | 8 | 8 | 8 | 20 |
+| Third | 75,000 | 3 | 1,000 | 20 | 20 | 20 | 40 |
+| **Full phase total** | — | **6** | **1,600** | **32** | **32** | **32** | **68** |
+
+That full phase provides **5 hours 40 minutes of speedups** in addition to the Skill Medals and resource chests.
+
+The third chest is especially important in this example: it contains **1,000 of the 1,600 total Skill Medals** awarded by the phase. For players who are constrained by Skill Medals, that reward can be a meaningful reason to finish a phase even after the 18-badge daily milestone has already been reached.
+
+Reward quantities and thresholds can vary by contest segment, progression group, and update. Always inspect the three chest previews in your current phase before deciding how far to push.
+
+### Separate chest value from ranking value
+
+There are two different stopping decisions in Arms Race:
+
+1. **Daily badge milestone:** 18 badges finishes the daily badge track.
+2. **Individual phase:** the third chest finishes the phase reward track.
+
+After 18 badges, additional phase chests can still be valuable because their resources are independent of the daily badge milestone.
+
+By contrast, **once the third chest of the current phase is claimed, additional points in that same phase only improve ranking.** That is the point where spending should normally stop unless you are deliberately competing for rank.
+
+A disciplined player should therefore optimize around **18 badges first**, then evaluate remaining phase chests by their marginal reward rather than treating 18 as a hard cap.
 
 ---
 
@@ -106,7 +134,7 @@ Hero EXP works, but reaching 12,000 points from EXP alone would require roughly 
 A strong compromise when conserving tickets is:
 
 1. Use 10 recruitment tickets to reach the second chest quickly.
-2. Finish the remaining points only if the third chest fits your broader development/VS plan.
+2. Check the third chest reward and finish the remaining points when its reward fits your broader development/VS plan.
 
 ---
 
@@ -317,6 +345,7 @@ Stage Swap is useful when:
 - you will be offline during the natural window for an easy phase
 - you need to reach 18 badges earlier in the day
 - another event makes one phase much more efficient right now
+- a later phase has especially valuable chest rewards that you want to reach while your resources are available
 
 ### Important restrictions
 
@@ -330,9 +359,9 @@ The swap is **scheduling flexibility**, not additional scoring opportunities.
 
 ---
 
-## 10. Which Phases Should You Target for 18 Badges?
+## 10. Which Phases Should You Target First?
 
-There is no universal best three because stockpiles and event overlaps matter more than phase names.
+There is no universal best three because stockpiles, chest rewards, and event overlaps matter more than phase names.
 
 A useful priority framework is:
 
@@ -359,7 +388,9 @@ A useful priority framework is:
 - Great with a major research completion and VS research overlap.
 - Poor if forcing it requires idling your Tech Center or wasting general speedups.
 
-### Default daily mindset
+### Before 18 badges
+
+The first goal is to identify the **three cheapest full phases** that let you finish the daily 18-badge milestone while advancing things you already intended to advance.
 
 Do not say:
 
@@ -369,7 +400,23 @@ Instead say:
 
 > “Which three phases can I complete today while spending resources I already wanted to spend?”
 
-That is the correct Arms Race optimization question.
+### After 18 badges
+
+Do **not** automatically stop.
+
+For every remaining phase chest, ask:
+
+1. **What does this chest reward?** Skill Medals, resource chests, speedups, and any other progression items all have real value.
+2. **How many additional points do I need?** Judge the marginal cost from your current phase score, not the cost of the entire phase from zero.
+3. **Would I spend these resources anyway?** A planned troop promotion, building completion, research push, or hero upgrade is much cheaper economically than consuming a stockpile only for the chest.
+4. **Does it overlap another event?** VS overlap can make a chest dramatically more efficient.
+5. **Am I stopping at the chest or continuing for rank?** Once the third chest is claimed, further points are ranking-only.
+
+For players short on Skill Medals, a cheap third chest can be substantially more valuable than the daily badge count alone suggests.
+
+The correct post-18 question is:
+
+> **“Is the next phase chest worth what it will cost me to reach it?”**
 
 ---
 
@@ -412,13 +459,17 @@ That is the correct Arms Race optimization question.
 
 A construction speedup used during Drone Boost creates account progress but throws away potential Arms Race points.
 
-### Chasing rank instead of milestones
+### Confusing 18 badges with the end of Arms Race value
 
-Once the third chest is open, additional spending should be a conscious ranking decision.
+Eighteen badges finishes the daily badge milestone, but additional phase chests can still award valuable Skill Medals, resources, and speedups.
 
-### Finishing all three chests six times every day
+### Overscoring after the third phase chest
 
-Possible does not mean efficient. The daily gold milestone only requires 18 badges.
+Once the third chest is claimed, additional points in that phase are ranking-only. Keep spending only when the ranking reward justifies it.
+
+### Completing every phase without checking marginal value
+
+More chests can be worthwhile, but not every chest is automatically efficient. Compare the reward with the resources needed to reach the next threshold.
 
 ### Direct-training high-tier troops during Unit Progression
 
@@ -440,10 +491,13 @@ This is often the biggest opportunity cost in the entire event.
 
 ## 13. Quick Guide
 
-**Daily target:** 18 Arms Race Badges.
+**Daily baseline:** 18 Arms Race Badges.
 
 - Every phase has 3 chests worth **1 + 2 + 3 = 6 badges**.
-- Fully complete **3 good phases** rather than wasting resources trying to finish everything.
+- Fully complete **3 efficient phases first** to secure the 18-badge daily milestone.
+- **18 is not a hard stop.** Remaining phase chests still contain their own rewards.
+- Check each chest preview; Skill Medals, resource chests, and speedups can make another phase worth completing.
+- Stop scoring a phase after its **third chest** unless you deliberately want ranking rewards.
 - Check the day's schedule because phase order varies.
 - Spend big resources when **Arms Race and VS overlap**.
 - Hero: recruitment tickets are efficient.
@@ -451,9 +505,8 @@ This is often the biggest opportunity cost in the entire event.
 - Units: **waterfall troop promotions** for dramatically more scoring.
 - Research: time large research + speedups; don't leave the Tech Center idle for long periods.
 - Drone: spend Combat Data and AP only when those resources already have another useful purpose.
-- Stop at the third chest unless you deliberately want ranking rewards.
 
-> **The goal is not to spend more. The goal is to make every resource score multiple times.**
+> **The goal is not to spend more. The goal is to make every resource score multiple times — and to collect the valuable chests that spending unlocks.**
 
 ---
 
@@ -467,13 +520,15 @@ Sources used to cross-check the mechanics and numerical examples in this guide:
 - Game8 — troop mechanics and progression data: https://game8.jp/lastwar-survival/599193
 - Last War Tutorial — Arms Race badge structure and daily milestone explanation: https://www.lastwartutorial.com/arms-race/
 - Last War Guide — Arms Race structure and 18-badge strategy: https://lastwarguide.net/en/events/arms-race
+- In-game Unit Progression screenshots — Contest Segment Lv.29–30, September 2026; 15,000 / 30,000 / 75,000 chest thresholds and observed phase chest rewards used for the reward-value example.
 
 ### Still to verify / expand for Guidebook 2.0
 
-- Chest thresholds for additional HQ/progression brackets
+- Chest thresholds **and chest reward tables** for additional HQ/progression brackets
+- Whether phase chest reward packages are identical across all five Arms Race themes within the same contest segment
 - Whether Lv.11 troops have a new/current Arms Race point value after Season IV off-season unlocks
 - Full weekly phase-order rotation by server age / whether it is universal
 - Precise efficiency tables for troop promotion paths at Lv.8, Lv.9, Lv.10 and Lv.11
 - Best Arms Race + Alliance Duel overlap matrix by weekday
-- Value comparison: stop at 18 badges vs push daily ranking
+- Marginal value tables for first, second, and third phase chests after the 18-badge milestone
 - Daily badge reward changes after Exclusive Weapon choice chests unlock
